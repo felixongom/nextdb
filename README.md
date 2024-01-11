@@ -85,7 +85,9 @@ let post = new Nextdb(db, 'post')
 ##### **.create()**
 ```js
 //writing data to post colletion in the database
-let result = post.create({title:'post title 1',body:'i am post 1'})
+let result = post.create({title:'post title 1',body:'i am post 1'}).save()
+let result = post.create([{title:'post title 1',body:'i am post 1'}]).save()
+//writes the database 
 
 ```
 
