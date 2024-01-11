@@ -162,7 +162,7 @@ post.find().sort({id:1}).get()
 post.find().limit(5).get() 
 //it retuns 5 documents
 
-post.find({views:{$gt:20}}).sort(id:-1).limit(5).get() 
+post.find({views:{$gt:20}}).sort({id:-1}).limit(5).get() 
 /*it retuns 5 documents mating the criteria 
 sorted in descending order basing on id 
 */
@@ -171,7 +171,7 @@ sorted in descending order basing on id
 
 ```js
 post.find().sort(id:-1).limit(5).get() 
-post.find().limit(5).sort(id:-1).get() 
+post.find().limit(5).sort({id:-1}).get() 
 //the results for the above are the same
 ```
 
