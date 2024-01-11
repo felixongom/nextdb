@@ -1,6 +1,6 @@
 ## Nextdb.
 
-Nextdb is a naxtjs library for persisting data just like a database.
+Nextdb is a nextjs library for persisting data just like a database.
 It store it's data locally on the server just like sqlite3 would do, but instead it store its data in a json file.
 Nextdb is similar to mongodb and can perform both read and write operation.
 It can help when building a small application, but for larger project, i would advise going for sql databases or mongodb.
