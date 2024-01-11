@@ -15,7 +15,7 @@ conts {Nextdb} = require('nextdb)
 import {Nextdb} from "nextdb";
 ```
 Open the api folder and create Db/db.json,
-In the db.json add an empty json braces to start with, {} to make it a valid json file,
+In the db.json add an empty curly braces {} to make it a valid json file,
 **Make sure all you json files is in a folder named Db**.
 
 ![img](./img//Screenshot%20(17).png)
