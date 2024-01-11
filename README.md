@@ -10,7 +10,7 @@ It can help when building a small application, but for larger project, i would a
 ##### Installation.
 Install with npm i nextdb
 ```js
-conts {Nextdb} = require('litedb)
+conts {Nextdb} = require('nextdb)
 //OR
 import {Nextdb} from "nextdb";
 ```
